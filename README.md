@@ -1,0 +1,1 @@
+Inline form validation implemenetation as described by the JavaScript course from The Odin Project.

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Practice</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <form onsubmit="return false;">
+        <div id="email">
+          <label>Email:</label>
+          <input type="text" maxlength="64" />
+          <span class="warning"></span>
+        </div>
+        <div id="country">
+          <label>Country:</label>
+          <select>
+            <option value="none" selected disabled hidden>
+              Select an Option
+            </option>
+          </select>
+          <span class="warning"></span>
+        </div>
+        <div id="zip">
+          <label>ZIP code:</label>
+          <input type="text" maxlength="10" />
+          <span class="warning"></span>
+        </div>
+        <div id="password">
+          <label>Password:</label>
+          <input type="password" />
+          <span class="warning"></span>
+        </div>
+        <div id="confirm">
+          <label>Confirm password:</label>
+          <input type="password" />
+          <span class="warning"></span>
+        </div>
+        <button id="submit">Submit</button>
+      </form>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
